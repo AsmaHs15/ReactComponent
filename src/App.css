@@ -1,0 +1,64 @@
+.App {
+
+	background-color:  'red';
+	
+	/* background-image: url("/cats.jpg");  */
+	/* background-repeat: no-repeat, no-repeat;
+	background-position: -50% 130%, 130% -95%; */
+
+
+}
+
+.card
+{
+	display: flex;	
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	border-radius: 10px; 
+
+  	max-width: 23.5%;
+ 
+  	margin-left: 35%;
+  	margin-top: 5%;
+
+  	background-color: white;
+  
+
+}
+
+.credentials
+{
+	display: flex;
+	
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 5%;
+}
+
+
+.profile_pic
+{
+
+	margin-top: -14%;
+	margin-left: 36%;
+
+	border: 5px solid white;
+	border-collapse: separate;
+	overflow: hidden; 
+	border-radius: 50%;
+
+	max-width: 100%;
+  	height: auto;
+}
+
+.card_top
+{
+	border-radius: 10px 10px 0 0;
+	max-width: 100%;
+  	height: auto;
+}
